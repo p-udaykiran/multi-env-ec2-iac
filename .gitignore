@@ -1,0 +1,21 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore .terraform directory (local plugin and module cache)
+.terraform/
+
+# Ignore provider lock file (optional, may vary per team)
+.terraform.lock.hcl
+
+# Ignore SSH private keys (security best practice)
+infra_key
+*.pem
+*.key
+
+# Ignore user data or sensitive scripts if needed
+*.sh
+
+# Ignore VSCode/IDE configs (optional)
+.vscode/
+.idea/
